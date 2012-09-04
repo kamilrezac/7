@@ -1,0 +1,6 @@
+name = Automenu
+description = "Automatically creates menulinks for content-types"
+core = 7.x
+files[] = automenu.module
+
+

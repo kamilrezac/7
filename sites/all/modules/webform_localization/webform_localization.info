@@ -1,0 +1,9 @@
+
+name = Webform Localization
+description = Enables localization features to forms and questionnaires.
+dependencies[] = webform
+dependencies[] = i18n_string
+core = 7.x
+package = Webform
+
+files[] = tests/webform_localization.test

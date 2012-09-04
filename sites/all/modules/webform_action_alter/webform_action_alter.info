@@ -1,0 +1,7 @@
+; $Id$
+name = Webform action alter
+description = A simple module, which alters webforms action.
+package = Webform
+core = 7.x
+dependencies[] = webform
+

@@ -1,0 +1,5 @@
+name = Workbench Update
+description = Workbench Update
+package = Workbench
+core = 7.x
+dependencies[] = workbench

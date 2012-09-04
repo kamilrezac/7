@@ -1,0 +1,12 @@
+<?php
+
+function workbench_update_views_query_alter(&$view, &$query)
+{
+  switch($view->name) {
+    case 'workbench_recent_content':
+//      var_dump($view->query->fields);
+//      $view->query->add_where(0, "uid", '1');
+      
+      break;
+  }
+}

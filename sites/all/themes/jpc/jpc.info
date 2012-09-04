@@ -1,0 +1,10 @@
+name = Jpc
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/admin.css
+stylesheets[all][] = css/drupal.css
+#stylesheets[print][] = css/print.css
+
+#scripts[] = js/jquery.js?v=0
+

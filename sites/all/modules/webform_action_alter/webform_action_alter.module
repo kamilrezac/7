@@ -1,0 +1,10 @@
+<?php
+// $Id$
+
+function webform_action_alter_form_webform_client_form_17_alter(&$form, $form_state) {
+    $form['#action'] = url($_GET['q']) . '?error=1';
+}
+
+function webform_action_alter_form_webform_client_form_103_alter(&$form, $form_state) {
+    $form['#action'] = url($_GET['q']) . '?error=1';
+}

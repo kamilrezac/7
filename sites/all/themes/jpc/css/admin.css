@@ -1,0 +1,52 @@
+/* ADMIN */
+.admin-wrapper {
+	position: relative;
+}
+.admin-bar {
+	border-bottom: 1px solid #e3e3e3;
+	padding: 40px 15px 10px;
+	overflow: hidden;
+}
+.admin-bar a {
+	cursor: pointer;
+	padding: 1px 17px 0;
+	margin: 0 0.35em;
+	color: #fff;
+	background: #fb1000;
+	float: left;
+	border-bottom: 1px solid #e03228;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.admin-bar a:hover {
+	color: #fdd;
+}
+.admin-bar a.system {
+	float: right;
+	color: #333;
+	background: #ddd;
+	border-bottom: 1px solid #bbb;
+}
+.admin-bar a.system:hover {
+	color: #666;
+}
+.admin-bar a.current {
+    color: #fff;
+    background: #2976c8;
+    border-bottom: 1px solid #113e7d;
+}
+.admin-bar a.current:hover {
+    color: #c7e5f8;
+}
+.admin-bar span {
+    float: left;
+	color: #333;
+    padding: 1px 17px;
+    margin: 0 0.35em;
+}
+.admin-bar span.system {
+    float: right;
+    font-weight: bold;
+}
